@@ -5,7 +5,7 @@ metadata:
   namespace: yassine-telitel-dev
 spec:
   imagePullSecrets:
-   - name: ghcr-pull-secret
+   - name: ghcr-pull-secret-new
   containers:
     - name: nginx
       image: ${IMAGE}
